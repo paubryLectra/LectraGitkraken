@@ -4,6 +4,9 @@ public class Animal {
 	private int age;
 	private double poids;
 	
+	public Animal(){
+		this("xxx", 1, 1);
+	}
 	public Animal(String name, int age, double poids) {
 		this.name = name;
 		this.age = age;
