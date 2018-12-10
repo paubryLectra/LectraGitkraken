@@ -5,7 +5,8 @@ public class Animal {
 	private double poids;
 	
 	public Animal(){
-		this("xxx", 1, 1);
+		//use a constructor inside the class
+		this("xxx", 1, 1.0);
 	}
 	public Animal(String name, int age, double poids) {
 		this.name = name;
